@@ -41,12 +41,46 @@ body{
 /* Below code shows styling of confirm_order */
 .confirm_order{
     background-color: rgb(114, 22, 22);
-    padding: 20px;
-    border-radius: 12px;
+    padding: 15px;
+    border-radius: 35px;
     width: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 200px;
+    forced-color-adjust: auto !important;
+    color: white;
+    
 }
+
+.confirm_order:hover{
+    background-color:#bd1010;
+    color:#f8f8f8;
+    cursor: pointer;
+}
+
+.Clear_Cart{
+    background-color: rgb(170, 155, 20);
+    padding: 15px;
+    border-radius: 35px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 200px;
+    forced-color-adjust: auto !important;
+    color: white;
+    margin-top: 10px;
+}
+
+.Clear_Cart:hover{
+    background-color: #d6c915;
+    color: #f8f8f8;
+    cursor: pointer;
+    
+}
+
+/* This allows the Clear_Cart button to be shown at the bottom of orders */
+.Clear_Cart { display: block; margin: 20px auto; }
+
+/* This allows the confirm_order button to be shown at the bottom of orders */
+.confirm_order { display: block; margin: 20px auto; }
 
 /* blow is used to style the image tag inside the index.html */
 .img1{

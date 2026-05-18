@@ -101,7 +101,9 @@ cartButtons.forEach(button => {
 
         updateCartUI();
     });
+    
 });
+
 
 // Initialize cart
 updateCartUI();
