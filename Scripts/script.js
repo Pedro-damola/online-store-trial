@@ -17,7 +17,7 @@ function updateCartUI() {
     cartTitle.textContent = `Your Cart (${cartItems.length})`;
 
     // Clear old cart display
-    cartContainer.innerHTML = "";
+    cartContainer.innerHTML = "zero";
 
     // If cart is empty
     if (cartItems.length === 0) {
