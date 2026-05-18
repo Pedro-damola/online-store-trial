@@ -40,7 +40,7 @@ body{
 
 /* Below code shows styling of confirm_order */
 .confirm_order{
-    background-color: rgb(114, 22, 22);
+    background-color: #bd1010;
     padding: 15px;
     border-radius: 35px;
     width: 100%;
@@ -52,13 +52,13 @@ body{
 }
 
 .confirm_order:hover{
-    background-color:#bd1010;
+    background-color:#9b0404;
     color:#f8f8f8;
     cursor: pointer;
 }
 
 .Clear_Cart{
-    background-color: rgb(170, 155, 20);
+    background-color: #d6c915;
     padding: 15px;
     border-radius: 35px;
     width: 100%;
@@ -70,7 +70,7 @@ body{
 }
 
 .Clear_Cart:hover{
-    background-color: #d6c915;
+    background-color: #a59b12;
     color: #f8f8f8;
     cursor: pointer;
     
