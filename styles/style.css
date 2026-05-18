@@ -22,8 +22,6 @@ body{
 
 
 .productDiv{
-
-
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(3, 20rem);
@@ -40,6 +38,15 @@ body{
     color:rgb(138, 33, 33);
 }
 
+/* Below code shows styling of confirm_order */
+.confirm_order{
+    background-color: rgb(114, 22, 22);
+    padding: 20px;
+    border-radius: 12px;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 400px;
+}
 
 /* blow is used to style the image tag inside the index.html */
 .img1{
@@ -99,4 +106,6 @@ body{
     gap: 30px; /* space between products */
     width: 100%;
     max-width: 1200px;
+}
+
 }
